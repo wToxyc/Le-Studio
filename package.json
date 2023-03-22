@@ -1,0 +1,17 @@
+{
+  "name": "le-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ."
+  },
+  "keywords": [],
+  "author": "Toxy",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.8.0",
+    "mongoose": "^7.0.2"
+  }
+}
