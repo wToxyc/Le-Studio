@@ -16,7 +16,7 @@ export const event: Event = {
 
         setInterval(() => {
             client.user.setActivity(`${guild.memberCount} membres`, { type: ActivityType.Watching });
-            channel.setName(`〡Membres : ${guild.memberCount}`);
+            channel.setName(`🔥〡Membres : ${guild.memberCount}`);
 
             const filter = (member: GuildMember) => member.voice.channel && !member.user.bot;
             const membersInVoice = guild.members.cache.filter(filter);
